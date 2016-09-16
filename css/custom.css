@@ -1,0 +1,191 @@
+{
+    border: 1px solid red !important;
+}
+
+/*General*/
+body{
+  background-color: #333333;
+}
+
+@font-face {
+font-family: Voga;
+src: url("/var/www/jonikimmodel.com/fonts/Voga-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Lato', sans-serif;
+}
+
+h1{
+  font-family: Voga;
+  color: #ffffff;
+}
+
+p{
+  font-family: Lato;
+  color: #ffffff;
+}
+
+
+/* Border line */
+hr {
+  -moz-border-bottom-colors: black;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1000px;
+}
+
+
+.center{
+  float: none;
+  margin: 0 auto;
+}
+
+/* Navigation */
+.navbar{
+  background-color: #333333;
+  border-color: #333333;
+}
+
+.navbar-brand{
+  float: left;
+  padding: 10px 10px;
+  line-height: 20px;
+  height: 75px;
+  width: 122.5px;
+}
+
+@media (min-width: 970px) {
+    .navbar{
+        max-width: 970px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 970px) {
+    .navbar{
+        max-width: 767px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+.navbar-nav > li{
+  font-family: Lato;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a.current{
+  color: #ffffff;
+}
+
+/* Social Icons */
+.social-icon {
+  max-height: 75px;
+  max-width: 75px;
+  position:relative;
+}
+
+@media (max-width: 1200px){
+  .social-root{
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+
+/* Home Page */
+.carousel {
+  max-width: 970px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    max-height: 900px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+/* Gallery page */
+.container {
+  margin-top: 40px;
+}
+
+@media (min-width: 970px) {
+  .thumb > a > img{
+    max-height: 262px;
+    min-height: 262px;
+  }
+}
+
+.thumbnail{
+  border-color: #333333;
+  background-color: #333333;
+}
+
+/* Bio Page*/
+@media (max-width: 1200px) {
+  .bio-image{
+    display: none;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*
+  .panel {
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier
+  }
+  .panel-body{
+    position: relative;
+    left: 0;
+    top: 0;
+  }*/
+}
+.panel{
+  font-family: Lato;
+  border-color: #333333;
+  background-color: #333333;
+  color: #ffffff;
+  height: 580.84px;
+}
+
+.panel-body{
+  border-color: #333333;
+  background-color: #333333;
+}
+
+/* Contact Page*/
+.control-label {
+  color: #ffffff;
+}
+
+.form-horizontal {
+
+}
